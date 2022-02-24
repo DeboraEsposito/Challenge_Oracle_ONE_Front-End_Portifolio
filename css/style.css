@@ -185,6 +185,7 @@ h2 {
   display: flex;
   margin: auto;
   justify-content: space-between;
+  margin-bottom: 88px;
 }
 
 #icon-card {
@@ -227,6 +228,7 @@ h2 {
 
 .cards-formacao {
   display: flex;
+  margin-bottom: 82px;
 }
 
 #icon-logos {
@@ -246,4 +248,73 @@ h2 {
 #formacao-titulo {
   padding-top: 82px;
   padding-bottom: 32px;
+}
+
+#projetos-titulo {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+
+}
+
+.titulo-projeto {
+  font-family: Raleway;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0em;
+  color: #464646;
+}
+
+#experiencia {
+  width: 1136px;
+  height: 406px;
+  display: flex;
+  margin: auto;
+  margin-bottom: 56px;
+}
+
+#imagem-projeto {
+  width: 752px;
+  height: 406px;
+
+}
+
+#infos {
+  width: 348px;
+  height: 112px;
+  margin-top: 110px;
+  margin-left: 26px;
+  font-family: Raleway;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  color: #464646;
+  justify-content: space-between;
+
+}
+
+.buttons {
+  justify-content: space-between
+}
+
+.white {
+  width: 116px;
+  height: 51px;
+  padding: 16px;
+  border: solid 1px #2A7AE4;
+  border-radius: 4px;
+}
+
+.blue {
+  width: 116px;
+  height: 51px;
+  padding: 16px;
+  background-color: #2A7AE4;
+  border: solid 1px #2A7AE4;
+  border-radius: 4px;
+
 }
