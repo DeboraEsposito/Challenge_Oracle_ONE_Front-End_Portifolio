@@ -59,13 +59,183 @@ body {
   color: #464646
 }
 
-#sobre {
+#perfil {
+  display: flex;
   height: 368px;
   width: 1136px;
-  left: 152px;
-  top: 120px;
+  margin: auto;
+  margin-top: 66px;
   border-radius: 0px;
   justify-content: space-between;
+}
 
+#foto-perfil {
+  border-radius: 50%;
+}
 
+#sobre {
+  text-align: center;
+}
+
+.sobre {
+  font-family: Raleway;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 61px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #464646;
+  margin-top: 52px;
+  margin-bottom: 24px;
+
+}
+
+#descricao-1 {
+  font-family: Raleway;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 26px;
+  margin-bottom: 26px;
+
+}
+
+.links {
+  display: flex;
+  height: 24px;
+  width: 467px;
+  border-radius: 0px;
+}
+
+.links-rede {
+  justify-content: space-between;
+  padding-right: 32px;
+}
+
+#seta {
+  padding-left: 5px;
+}
+
+#frame-6 {
+  background-color: #EAF2FD;
+}
+
+#sobre-1 {
+  width: 1136px;
+  margin: auto;
+}
+
+h2 {
+  font-family: Raleway;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0em;
+  color: #464646;
+}
+
+.sobre-mim {
+  text-align: left;
+  padding-top: 64px;
+}
+
+.P-sobre {
+  height: 133px;
+  width: 751px;
+  left: 0px;
+  top: 54px;
+  border-radius: nullpx;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #464646;
+  text-align: justify;
+}
+
+.rubrica {
+  width: 140px;
+  height: 52px;
+}
+
+#areaSkills {
+  width: 1136px;
+  height: 244px;
+  justify-content: space-between;
+  margin-top: 0;
+}
+
+#skills-titulo {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.all-cards {
+  width: 1136px;
+  height: 174px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+
+#icon-card {
+  margin: 94px 136px 43px 16px;
+  font-family: Raleway;
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 19px;
+  line-height: 100%
+}
+
+.cards {
+  width: 176px;
+  height: 174px;
+  background-color: #FFFFFF;
+  text-align: left;
+  color: #464646;
+}
+
+#all-formacao {
+  display: flex;
+  width: 1136px;
+  text-align: center;
+  justify-content: space-between;
+  margin: auto;
+
+}
+
+#areaFormacao {
+  background-color: #EAF2FD;
+  text-align: center;
+
+}
+
+.icon-logo {
+  width: 80px;
+  height: 80px;
+}
+
+.cards-formacao {
+  display: flex;
+}
+
+#icon-logos {
+  background-color: #FFFFFF;
+  width: 260px;
+  height: 220px;
+  text-align: center;
+}
+
+#formacao-titulo {
+  padding-top: 82px;
+  padding-bottom: 32px;
 }
